@@ -1,4 +1,4 @@
-import { Link } from "react-router"
+import { Link } from "react-router";
 
 function Header() {
   return (
@@ -6,7 +6,7 @@ function Header() {
       <Link to="/">Blog</Link>
       <Link to="/contact">お問い合わせ</Link>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
